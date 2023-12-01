@@ -183,7 +183,7 @@
     font-size: 16px;
   }
 
-  .button {
+  input[type="submit"] {
     background-color: #000000;
     color: white;
     border: none;
@@ -192,12 +192,8 @@
     cursor: pointer;
     font-size: 16px;
   }
-  .button a{
-    color: white;
-    text-decoration: none;
-  }
 
-  button:hover {
+  input[type="submit"]:hover {
     background-color: #545454;
   }
 
